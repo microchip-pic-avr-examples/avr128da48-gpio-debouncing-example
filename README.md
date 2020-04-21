@@ -30,9 +30,12 @@ The AVR128DA48 Curiosity Nano Development Board is used as test platform
 
 The following configurations must be made for this project:
 
+- EVSYS - Using Channel 3, Port C Pin 7 triggers the TCB0
+- TCB0 - Configured in Single Shot Mode
 |Pin           | Configuration      |
 | :----------: | :----------------: |
 |PC6 (LED0)    | Digital Output     |
+|PC7 (SW0)     | Digital Input      |
 
 
 ## Operation
