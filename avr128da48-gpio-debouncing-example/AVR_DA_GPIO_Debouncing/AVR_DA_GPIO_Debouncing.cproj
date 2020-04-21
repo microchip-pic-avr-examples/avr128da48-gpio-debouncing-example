@@ -43,7 +43,8 @@
     <avrtool>com.atmel.avrdbg.tool.nedbg</avrtool>
     <avrtoolserialnumber>MCHP3280011800000013</avrtoolserialnumber>
     <avrdeviceexpectedsignature>0x1E9708</avrdeviceexpectedsignature>
-    <avrtoolinterface>UPDI</avrtoolinterface>
+    <avrtoolinterface>
+    </avrtoolinterface>
     <com_atmel_avrdbg_tool_nedbg>
       <ToolOptions>
         <InterfaceProperties>
