@@ -1,6 +1,6 @@
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300"/></a>
 
-# AVR128DA48 GPIO Debouncing Example Code Example
+# AVR128DA48 GPIO Debouncing Code Example
 
 This repository provides an Atmel Studio solution with a bare metal code example for a button debouncing. Using the event system, the button state change will trigger the TCB0 timer configured in single shot mode. A timer interrupt is set to be activated when the timer counter reaches the top value.
 
