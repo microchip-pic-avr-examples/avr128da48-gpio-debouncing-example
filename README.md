@@ -55,4 +55,4 @@ Demo:
 <br><img src="images/AVR-DA_GPIO_Debouncing.gif" width="500">
 
 ## Summary
-This example represents a basic button debouncing implementation. Using the event system, the button state change triggers the the timer configured in single shot mode. A timer interrupt is set to be activated when the timer counter reaches the top value.
+This example represents a basic button debouncing implementation. Using the event system, the button state change triggers the timer configured in single shot mode. A timer interrupt is set to be activated when the timer counter reaches the top value.
