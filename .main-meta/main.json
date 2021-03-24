@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-gpio-debouncing-example",
         "version": "1.0.3",
-        "displayName": "Button debouncing",
+        "displayName": "GPIO de-bouncing using EVSYS and TCB",
         "projectName": "avr128da48-gpio-debouncing-example",
         "shortDescription": "This repository provides a Microchip Studio solution with a bare metal code example for a button debouncing using Event System and Timber Counter B",
         "ide": {
@@ -20,7 +20,7 @@
 		],
         "dfp": {
             "name": "AVR-Dx",
-            "semverRange": "1.6.88"
+            "semverRange": "^1.6.88"
         },
         "configurator": {
             "name": "N/A",
@@ -40,22 +40,16 @@
         "subcategories": [
             [
                 "Peripherals",
-                "Event System"
+                "EVSYS"
             ],
-            [
-                "Peripherals",
-                "Timer Counter B"
-            ]
         ],
         "peripherals": [
-            "Event System",
-            "Timer Counter B"
+            "EVSYS"
         ],
         "keywords": [
-            "Button Debouncing",
+            "Button De-bouncing",
             "LED toggle",
-            "Event System",
-            "Timer Counter B"
+            "Timers/Counters"
         ],
 		"additionalData": {
 			"longDescription": {
